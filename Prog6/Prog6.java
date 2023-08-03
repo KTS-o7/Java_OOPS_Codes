@@ -38,7 +38,7 @@ class Arrays {
             ArrayList<String> rev = new ArrayList<>();
             for (int i = list.size() - 1; i >= 0; i--)
                 rev.add(list.get(i));
-            System.out.println("The sorted array is: ");
+            System.out.println("The reversed array is: ");
             for (int i = 0; i < rev.size(); i++)
                 System.out.print(rev.get(i) + " ");
             System.out.println("");
